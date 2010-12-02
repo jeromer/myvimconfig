@@ -20,6 +20,8 @@ iabbrev Author     :Author: Jérôme Renard
 iabbrev Date       :Date:
 iabbrev Note:      .. Note::
 iabbrev pagebreak  .. raw:: pdf   PageBreak oneColumn
+iabbrev image:     .. image::
+iabbrev codeblock  .. code-block::
 
 
 " Set up automatic formatting
