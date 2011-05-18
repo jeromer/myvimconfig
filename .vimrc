@@ -156,10 +156,6 @@ nnoremap <Esc>p  p'[v']=
 vnoremap < <gv
 vnoremap > >gv
 
-" mapping for the ITune script :
-" http://www.vim.org/scripts/script.php?script_id=523
-let g:VimITunesMapPrefix = ",x"
-
 " support all three, in this order
 set fileformats=unix,dos,mac
 
