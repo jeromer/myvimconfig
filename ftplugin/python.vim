@@ -1,11 +1,5 @@
 set omnifunc=pythoncomplete#Complete
 
-" configure expanding of tabs for various file types
-au BufRead,BufNewFile *.py set expandtab
-au BufRead,BufNewFile *.c set noexpandtab
-au BufRead,BufNewFile *.h set noexpandtab
-au BufRead,BufNewFile Makefile* set noexpandtab
-
 " enter spaces when tab is pressed
 set expandtab
 
