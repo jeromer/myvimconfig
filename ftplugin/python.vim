@@ -1,10 +1,12 @@
 set omnifunc=pythoncomplete#Complete
 
+iabbrev codingutf8 # -*- coding: utf-8 -*-
+
 " enter spaces when tab is pressed
 set expandtab
 
 " break lines when line length increases
-set textwidth=120
+set textwidth=79
 
 " use 4 spaces to represent tab
 set tabstop=4
