@@ -232,3 +232,7 @@ endfunc
 " using pman for the PHP manual
 " sudo pear channel-discover doc.php.net && sudo pear install doc.php.net/pman
 set keywordprg=pman
+
+" highlight any text after virtual column 80
+" http://vim.wikia.com/wiki/Highlight_long_lines
+match ErrorMsg '\%>80v.\+'
