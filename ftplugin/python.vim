@@ -27,3 +27,6 @@ inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
 inoremap { {}<LEFT>
+
+" pip install pyflakes
+set makeprg=pyflakes\ %
