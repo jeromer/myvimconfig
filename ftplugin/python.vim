@@ -30,3 +30,7 @@ inoremap { {}<LEFT>
 
 " pip install pyflakes
 set makeprg=pyflakes\ %
+
+" highlight any text after virtual column 80
+" http://vim.wikia.com/wiki/Highlight_long_lines
+match ErrorMsg '\%>80v.\+'
