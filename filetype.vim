@@ -3,10 +3,6 @@
 "
 augroup filetypedetect
 
-    " Do not add EOL
-    au BufWritePre * :set binary | set noeol
-    au BufWritePost * :set nobinary | set eol
-
     " Detect .txt as 'text'
     au BufNewFile,BufRead *.txt setf text
 
