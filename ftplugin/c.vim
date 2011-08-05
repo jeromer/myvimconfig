@@ -45,4 +45,7 @@ set expandtab
 " Indent on { and } for functions
 " set foldmethod=indent
 
+" Map ; to "add ; to the end of the line, when missing"
+noremap <buffer> ; :s/\([^;]\)$/\1;/<cr>
+
 " vim: set fdm=marker:
