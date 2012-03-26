@@ -48,3 +48,5 @@ inoremap <Nul> <C-x><C-o>
 
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
+
+set fdm=marker
